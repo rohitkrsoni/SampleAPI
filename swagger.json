@@ -1,0 +1,42 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Simple Express API",
+        "description": "A simple Express API"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3000"
+        }
+    ],
+    "paths": {
+        "/": {
+            "get": {
+                "summary": "Get a user",
+                "responses": {
+                    "200": {
+                        "description": "A user object",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "integer",
+                                            "description": "User ID"
+                                        },
+                                        "name": {
+                                            "type": "",
+                                            "description": "User name"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sampleapi",
+  "version": "1.0.0",
+  "description": "Sample API to work on KIOTA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rohit S",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
